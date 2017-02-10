@@ -1,6 +1,6 @@
 <template>
-	<icon v-bind:i="currentIcon"
-		v-bind:class="(this.state === 'cog') ? 'spinning' : ''"/>
+	<icon :i="currentIcon"
+		:class="(this.state === 'cog') ? 'spinning' : ''"/>
 </template>
 
 <script>

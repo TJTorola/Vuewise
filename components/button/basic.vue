@@ -1,6 +1,6 @@
 <template>
-	<div v-bind:class="`button no-select ${ color }${ disabled ? ' disabled' : '' }`">
-		<Icon v-if="icon" v-bind:i="icon" />
+	<div :class="`button no-select ${ color }${ disabled ? ' disabled' : '' }`">
+		<Icon v-if="icon" :i="icon" />
 		<slot/>
 	</div>
 </template>

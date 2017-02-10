@@ -1,18 +1,18 @@
 <template>
 	<main
-		v-bind:class="expanded ? '' : 'active'"
-		v-on:click="mainToggle">
+		:class="expanded ? '' : 'active'"
+		@click="mainToggle">
 		<header>
-			<Icon v-if="icon" v-bind:i="icon" />
+			<Icon v-if="icon" :i="icon" />
 			<div class="box-title no-select">
 				{{ header }}
 				<small v-if="subHeader">
 					({{ subHeader }})
 				</small>
 			</div>
-			<div v-on:click="toggleExpanded">
+			<div @click="toggleExpanded">
 				<Icon class="expander"
-					v-bind:i="expanded ? 'minus' : 'plus'"/>
+					:i="expanded ? 'minus' : 'plus'"/>
 			</div>
 		</header>
 		<div class="body">
