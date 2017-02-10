@@ -73,7 +73,7 @@ input:focus ~ label, label.filled {
 </style>
 
 <script>
-import Icon from '~/components/icon.vue';
+import { Icon } from '../../index';
 
 export default {
 	components: {

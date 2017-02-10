@@ -59,7 +59,7 @@
 </style>
 
 <script>
-import Icon from '~components/icon'
+import { Icon } from '../../index'
 
 export default {
 	props: {
