@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import FA from '~assets/svg/fa.js';
+import FA from '../../assets/svg/fa.js';
 
 export default {
 	props: ['i'],
