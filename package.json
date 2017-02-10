@@ -1,6 +1,6 @@
 {
   "name": "vuewise",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A set of vue components for Samwise",
   "main": "index.js",
   "scripts": {
