@@ -72,7 +72,7 @@ header {
 </style>
 
 <script>
-import { Icon } from '~index';
+import { Icon } from '../../index';
 
 export default {
 	props: ['header', 'subHeader', 'icon'],
