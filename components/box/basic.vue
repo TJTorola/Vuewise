@@ -72,7 +72,7 @@ header {
 </style>
 
 <script>
-import Icon from '~components/icon.vue';
+import { Icon } from '~index';
 
 export default {
 	props: ['header', 'subHeader', 'icon'],
